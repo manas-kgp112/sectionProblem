@@ -72,7 +72,24 @@ body{
     text-align: center;
 }
 
-/* Hover effects */
+/* Problem Section CSS */
+
+#firstOption {
+    color: gray;
+}
+
+#selectContact option {
+    color: cyan;
+}
+
+
+
+
+
+
+
+
+/* Till here */
 
 
 

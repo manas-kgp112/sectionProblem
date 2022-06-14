@@ -10,3 +10,12 @@ for (let i = 0; i < inputsContact.length; i++) {
         logosContact[i].style.color = 'white';
     }
 }
+
+
+// Problem Section
+// this works but only on disabled options
+if ($('#selectContact option:selected').val() == 'none') {
+    document.getElementById('selectContact').style.color = 'gray';
+} else {
+    document.getElementById('selectContact').style.color = 'red';
+}
